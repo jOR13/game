@@ -49,7 +49,7 @@ function create () {
   ledge = platforms.create(-75, 350, 'ground')
   ledge.body.immovable = true
   
-  ledge = platforms.create(75, 35, 'ground')
+  let ledge = platforms.create(75, 35, 'ground')
   ledge.body.immovable = true
 
     // The player and its settings
