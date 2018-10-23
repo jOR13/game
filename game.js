@@ -49,8 +49,6 @@ function create () {
   ledge = platforms.create(-55, 350, 'ground')
   ledge.body.immovable = true
   
-  let ledge = platforms.create(75, 35, 'ground')
-  ledge.body.immovable = true
 
     // The player and its settings
   player = game.add.sprite(32, game.world.height - 150, 'woof')
