@@ -46,7 +46,7 @@ function create () {
   let ledge = platforms.create(300, 450, 'ground')
   ledge.body.immovable = true
 
-  ledge = platforms.create(-75, 350, 'ground')
+  ledge = platforms.create(-55, 350, 'ground')
   ledge.body.immovable = true
   
   let ledge = platforms.create(75, 35, 'ground')
